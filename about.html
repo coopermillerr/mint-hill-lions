@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About | Mint Hill Lions Club</title><meta name="description" content="Who the Mint Hill Lions Club is and how our meetings work.">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#00338D;--blue-2:#0a4bbd;--gold:#EBB700;--gold-ink:#5a4600;--bg:#ffffff;--bg-2:#f4f6fb;--ink:#14213d;--ink-2:#4a5570;--line:#dfe4ef;--card:#ffffff;--ph:#fff6d6;--ph-ink:#7a5d00;--shadow:0 1px 2px rgba(10,30,80,.06),0 6px 20px rgba(10,30,80,.06)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1324;--bg-2:#131b31;--ink:#eef2fb;--ink-2:#aab4cc;--line:#26304a;--card:#161f38;--blue-2:#8fb0ff;--ph:#3a3010;--ph-ink:#ffd65a;--gold-ink:#ffd65a;--shadow:none;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d1324;--bg-2:#131b31;--ink:#eef2fb;--ink-2:#aab4cc;--line:#26304a;--card:#161f38;--blue-2:#8fb0ff;--ph:#3a3010;--ph-ink:#ffd65a;--gold-ink:#ffd65a;--shadow:none;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Source Sans 3",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-size:17px;line-height:1.55;color:var(--ink);background:var(--bg)}
+a{color:var(--blue-2)}img{max-width:100%}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.wrap{max-width:1100px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--blue)}
+.skip{position:absolute;left:-999px}.skip:focus{left:16px;top:8px;background:var(--gold);color:#000;padding:8px 12px;z-index:9}
+header.top{background:var(--blue);color:#fff;position:sticky;top:env(safe-area-inset-top,0px);z-index:5}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:64px}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:800;letter-spacing:.2px;line-height:1.1}
+.brand .logo{width:48px;height:auto;flex:none;display:block}
+.brand small{display:block;font-weight:600;opacity:.8;font-size:12px;letter-spacing:.6px;text-transform:uppercase}
+nav ul{list-style:none;margin:0;padding:0;display:flex;gap:4px;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;padding:8px 10px;border-radius:8px;font-weight:600;font-size:15px}
+nav a:hover,nav a[aria-current=page]{background:rgba(255,255,255,.14)}
+nav a.cta{background:var(--gold);color:#1b1400}
+.menu-btn{display:none;background:none;border:2px solid rgba(255,255,255,.5);color:#fff;border-radius:8px;padding:6px 10px;font:inherit;font-weight:700}
+@media (max-width:860px){.menu-btn{display:block}nav{display:none;position:absolute;left:0;right:0;top:64px;background:var(--blue);padding:8px 16px 16px}nav.open{display:block}nav ul{flex-direction:column}nav a{display:block;padding:12px}}
+.hero{background:linear-gradient(160deg,var(--blue) 0%,#062a6e 100%);color:#fff;padding:64px 0 72px}
+.hero h1{font-size:clamp(32px,6vw,54px);line-height:1.08;margin:0 0 16px;max-width:15ch}
+.hero p.lead{font-size:clamp(18px,2.4vw,21px);max-width:58ch;opacity:.92;margin:0 0 28px}
+.eyebrow{display:inline-block;color:var(--gold);font-weight:800;letter-spacing:1.4px;text-transform:uppercase;font-size:13px;margin-bottom:10px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 20px;border-radius:10px;font-weight:700;text-decoration:none;border:2px solid transparent}
+.btn.gold{background:var(--gold);color:#1b1400}.btn.ghost{border-color:rgba(255,255,255,.6);color:#fff}
+.btn.blue{background:var(--blue);color:#fff}
+section{padding:56px 0}section.alt{background:var(--bg-2)}
+h1,h2{text-wrap:balance}
+h2{font-size:clamp(26px,4vw,36px);line-height:1.15;margin:0 0 10px}
+.sub{color:var(--ink-2);max-width:62ch;margin:0 0 28px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;box-shadow:var(--shadow)}
+.card h3{margin:6px 0 6px;font-size:20px}.card p{margin:0;color:var(--ink-2)}
+.tag{display:inline-block;font-size:12px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--blue-2)}
+.meet{margin-top:-40px;position:relative}
+.meet .card{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:center;justify-content:space-between;border-left:6px solid var(--gold)}
+.meet strong{font-size:19px}
+.stats{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));text-align:center}
+.stat b{display:block;font-size:34px;color:var(--blue-2);line-height:1.1}
+.stat span{color:var(--ink-2)}
+.photos{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.photo{aspect-ratio:4/3;border-radius:12px;border:2px dashed var(--line);display:grid;place-items:center;color:var(--ink-2);text-align:center;padding:12px;font-size:15px}
+.band{background:var(--gold);color:#1b1400;padding:44px 0}.band h2{margin:0 0 6px}.band p{margin:0 0 18px;max-width:60ch}
+.split{display:grid;gap:28px;grid-template-columns:1fr}
+@media (min-width:860px){.split{grid-template-columns:1.1fr .9fr}}
+ul.checks{padding:0;list-style:none;margin:0}ul.checks li{padding-left:30px;position:relative;margin:0 0 10px}
+ul.checks li:before{content:"✓";position:absolute;left:0;top:0;color:var(--blue-2);font-weight:900}
+.ph{background:var(--ph);color:var(--ph-ink);padding:0 4px;border-radius:4px;font-weight:700}
+form .field{margin:0 0 16px}label,legend{display:block;font-weight:700;margin:0 0 6px}
+.hint{font-weight:400;color:var(--ink-2);font-size:14px}
+input[type=text],input[type=email],input[type=tel],textarea,select{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;font:inherit;background:var(--bg);color:var(--ink)}
+fieldset{border:0;padding:0;margin:0 0 16px}
+.opts label{font-weight:400;display:flex;gap:10px;align-items:flex-start;margin:0 0 8px}
+.opts input{margin-top:5px;width:18px;height:18px;flex:none}
+.notice{background:var(--ph);color:var(--ph-ink);border-radius:10px;padding:12px 14px;font-size:15px;margin:0 0 18px}
+button[disabled]{opacity:.6;cursor:not-allowed}
+details{border-bottom:1px solid var(--line);padding:14px 0}summary{font-weight:700;cursor:pointer}details p{margin:8px 0 0;color:var(--ink-2)}
+footer{background:#081a44;color:#cfd8ee;padding:40px 0;font-size:15px}footer a{color:#fff}
+.fgrid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+footer h4{color:#fff;margin:0 0 8px;font-size:16px}
+
+.ev{display:grid;grid-template-columns:150px 1fr;gap:16px;align-items:start}
+.evlist{display:grid;gap:12px}.ev .when{font-weight:800;color:var(--blue-2)}.ev h3{margin:0 0 4px}
+@media (max-width:560px){.ev{grid-template-columns:1fr;gap:4px}}
+.tbl{overflow-x:auto}table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line)}th{font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--ink-2)}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.split>*,.grid>*{min-width:0}
+</style></head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap bar">
+<a class="brand" href="index.html"><img class="logo" src="img/lions-logo.png" alt="" width="48" height="46"><span>Mint Hill Lions Club<small>We Serve · Mint Hill, NC</small></span></a>
+<button class="menu-btn" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu</button>
+<nav id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="about.html" aria-current=page>About</a></li><li><a href="programs.html">Programs</a></li><li><a href="events.html">Events</a></li><li><a href="rentals.html">Rentals</a></li><li><a href="donate.html">Donate</a></li><li><a href="contact.html">Contact</a></li><li><a class="cta" href="join.html">Join us</a></li></ul></nav>
+</div></header>
+<main id="main"><section class="hero"><div class="wrap"><span class="eyebrow">About us</span><h1>A hometown club with a worldwide reach.</h1><p class="lead">The Mint Hill Lions Club is a group of neighbors who meet once a month, plan a few big projects a year, and step in when someone in town needs help.</p></div></section>
+<section><div class="wrap split">
+<div><h2>Who we are</h2>
+<p>We're neighbors from all walks of life, and what we have in common is that we'd rather help than watch.</p>
+<p>We're one of thousands of clubs in Lions Clubs International, which was founded in 1917 and is known around the world for its work on sight and vision. Locally we're part of District 31-I, which covers clubs across this part of North Carolina.</p></div>
+<div class="card"><h3>Our motto is "We Serve."</h3><ul class="checks"><li>Sight and health help for neighbors who can't afford it</li><li>Kids and schools in Mint Hill</li><li>Programs for people who are blind or have low vision</li></ul></div>
+</div></section>
+<section class="alt"><div class="wrap">
+<h2>Club leadership</h2><p class="sub">More officers will be added soon.</p>
+<div class="grid"><div class="card"><span class="tag">President</span><h3>Cooper Miller</h3></div><div class="card"><span class="tag">Secretary</span><h3>John Robinson</h3></div></div></div></section>
+<section><div class="wrap split">
+<div><h2>How our meetings work</h2><p class="sub">We meet the 4th Tuesday of every month at 6:30 PM at J-Bird's in Mint Hill. Dinner and social time come first, then the meeting. We catch up on projects, vote on where the club's money goes, and plan the next event.</p></div>
+<div class="card"><h3>Visiting for the first time?</h3><p>Just come. Guests don't need an invitation, and nobody will ask you to sign anything.</p></div>
+</div></section></main>
+<footer><div class="wrap fgrid">
+<div><h4>Mint Hill Lions Club</h4>A local club of Lions Clubs International, District 31-I. Neighbors serving neighbors in Mint Hill, North Carolina.</div>
+<div><h4>Meet with us</h4>4th Tuesday of every month, 6:30 PM<br>J-Bird's, Mint Hill<br>Guests are always welcome.</div>
+<div><h4>Get in touch</h4>Email: <a href="mailto:lionsclubminthill@gmail.com">lionsclubminthill@gmail.com</a><br><a href="join.html">Join or volunteer</a></div>
+</div><div class="wrap" style="margin-top:24px;opacity:.7">© 2026 Mint Hill Lions Club</div></footer>
+<script>
+(function(){function fourthTue(y,m){var d=new Date(y,m,1);var off=(2-d.getDay()+7)%7;return new Date(y,m,1+off+21);}
+var now=new Date();now.setHours(0,0,0,0);var t=fourthTue(now.getFullYear(),now.getMonth());if(t<now)t=fourthTue(now.getFullYear(),now.getMonth()+1);
+document.querySelectorAll('[data-next-meeting]').forEach(function(el){el.textContent=t.toLocaleDateString('en-US',el.hasAttribute('data-short')?{weekday:'short',month:'short',day:'numeric'}:{weekday:'long',month:'long',day:'numeric'});});})();
+</script>
+</body></html>
